@@ -14,6 +14,8 @@ vendors = [
   "react"
   "react-bootstrap"
   "react-dom"
+  "bazooka"
+]
 
   # Legacy
   "jquery.jqmodal"
