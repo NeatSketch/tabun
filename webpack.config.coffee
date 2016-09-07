@@ -61,13 +61,6 @@ module.exports =
   resolve:
     extensions: ['', '.coffee', '.js', '.styl', '.css']
     modulesDirectories: ['node_modules', 'scripts', 'locale']
-    root: [
-      process.env.NODE_PATH
-      path.resolve(path.join(__dirname, 'frontend', 'vendor'))
-    ]
-
-  resolveLoader:
-    root: process.env.NODE_PATH
 
   plugins: Array::concat(
     if isProduction then [
